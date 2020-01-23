@@ -8,9 +8,13 @@ Date: 1/23/2020
 
 # Code
 main_Pc_spread_model.m - Contains model code; where patch, site information, and parameters must be specified
+
 example_patch.mat - Contains disease patch files (inital and final), patch topography, and "streams" file that defines areas of non-growth
+
 Spain_climate_data.mat  - Contains climate info for the site of Patch 1
+
 example_parameter_sets.mat - Example parameter set for tuned model parameters
+
 plot_patch_output.m - Script for plotting model output of infected area along with actual observed initial and final patch boundaries
 
 Other scripts are helper scripts called within the model. Scripts used in the D-infinity flow routing algorithm were developed by Steve Eddins (see citation below).
